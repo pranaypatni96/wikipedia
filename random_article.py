@@ -29,6 +29,6 @@ while True:
 				print "Opening the article: " + title
 				url = "http://en.wikipedia.org/wiki?curid=" + id_val
 				webbrowser.open(url)
-				user_input = raw_input("Press 'n' for next article, press 'x to quit. ")
+				user_input = raw_input("Press 'n' for next article, press 'x' to quit. ")
 			else:
 				user_input = raw_input("Invalid entry. Try again. ")
